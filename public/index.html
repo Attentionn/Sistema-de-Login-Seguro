@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Seguro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Registro -->
+        <section class="form-section">
+            <h2>Registro</h2>
+            <form id="register-form">
+                <input type="text" id="reg-username" placeholder="Nombre de usuario" required>
+                <input type="password" id="reg-password" placeholder="Contraseña" required>
+                <input type="password" id="reg-confirm-password" placeholder="Confirmar contraseña" required>
+                <button type="submit">Registrar</button>
+            </form>
+        </section>
+
+        <!-- Login -->
+        <section class="form-section">
+            <h2>Iniciar sesión</h2>
+            <form id="login-form">
+                <input type="text" id="login-username" placeholder="Nombre de usuario" required>
+                <input type="password" id="login-password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
